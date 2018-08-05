@@ -45,10 +45,10 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+// element styles
 .storage__button{
     margin: 10px 0;
 }
-// element styles
 .storage__image{
     max-height: 150px;
     margin: 5px;
@@ -56,7 +56,7 @@ body{
 .storage__text{
     width: 40%;
     padding: 15px;
-    text-align: center;
+    text-align: justify;
 }
 // modifier styles
 .storage__header_gray{

@@ -1,13 +1,3 @@
-const showLocalStorageButton = document.getElementById('show-local');
-const showCookieButton = document.getElementById('show-cookie');
-
-showLocalStorageButton.addEventListener("click", () => {
-    console.log(localStorage);
-});
-showCookieButton.addEventListener("click", () => {
-    console.log('document.cookie = \n' + document.cookie);
-});
-
 // LocalStorage
 const localText = document.getElementById('local-text');
 const localImage = document.getElementById('local-image');

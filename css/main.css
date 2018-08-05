@@ -64,7 +64,7 @@ body {
 .storage__text {
   width: 40%;
   padding: 15px;
-  text-align: center;
+  text-align: justify;
 }
 
 .storage__header_gray {
