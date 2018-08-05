@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Storage GROW</title>
+
+  <link rel="stylesheet" href="./css/main.css">
+  <script async src="./js/main.js"></script>
+</head>
+<body>
+
+  <main class="web-storage">
+    <div class="storage">
+      <h2 class="header text storage__header_gray">Local Storage</h2>
+      <div class="content">
+        <img alt="Car logo" class="storage__image" id='local-image'>
+    
+        <div class="text storage__text">
+          <p id="local-text">
+            Write here something about the localStorage to get help on examination.
+          </p> 
+          <button id='show-local' class="storage__button">Show localStorage in console</button>
+        </div>
+
+        <form class="select-data-form text">
+          <label for="font-select">
+            Select font for text:
+          </label>
+          <select name="font-select" id="local-font">
+            <option value="'Times New Roman', Times, serif">Serif</option>
+            <option value="Arial, Helvetica, sans-serif">Sans-serif</option>
+            <option value="'Courier New', Courier, monospace">Monospaced</option>
+          </select>
+    
+          <label for="image-select">
+            Select image:
+          </label>
+          <select name="image-select" id="local-brand">
+            <option value="./img/mclaren.png">Mclaren</option>
+            <option value="./img/porsche.png">Porsche</option>
+            <option value="./img/geely.png">Geely</option>
+          </select>
+        </form>
+      </div>
+    </div>
+
+
+    <div class="storage">
+      <h2 class="header text storage__header_gray">Document.cookie</h2>
+      <div class="content">
+        <img alt="Car Logo" class="storage__image" id="cookie-image">
+    
+        <div class="text storage__text">
+          <p id="cookie-text">
+             Add description about document.cookie not to fail final check.
+          </p>
+          <button id='show-cookie' class="storage__button">Show document.cookie in console</button>
+        </div>
+    
+        <form class="select-data-form text">
+          <label for="font-select">
+            Select font for text:
+          </label>
+          <select name="font-select" id="cookie-font">
+            <option value="'Times New Roman', Times, serif">Serif</option>
+            <option value="Arial, Helvetica, sans-serif">Sans-serif</option>
+            <option value="'Courier New', Courier, monospace">Monospaced</option>
+          </select>
+    
+          <label for="image-select">
+            Select image:
+          </label>
+          <select name="image-select" id="cookie-brand">
+            <option value="./img/mclaren.png">Mclaren</option>
+            <option value="./img/porsche.png">Porsche</option>
+            <option value="./img/geely.png">Geely</option>
+          </select>
+        </form>
+      </div>
+    </div>
+  </main>
+
+<!-- https://mdn.github.io/dom-examples/web-storage/ -->
+
+</body>
+</html>

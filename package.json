@@ -1,0 +1,11 @@
+{
+  "name": "web-storage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "simple-color-picker": "^0.1.2"
+  }
+}
