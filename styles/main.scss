@@ -9,15 +9,6 @@ html{
 body{
     height: 100vh;
 }
-// default styles for blocks
-.text{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
-}
-.header{
-    font-size: 2.2rem;
-    padding: 10px 0;
-}
 // block styles
 .web-storage{
     padding: 30px 0;
@@ -26,6 +17,8 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
 }
 .storage{
     display: flex;
@@ -35,30 +28,31 @@ body{
     padding: 15px;
     box-shadow: 0 0 5px gray;
 }
-.content{
+// element styles
+.storage__content{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.select-data-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-// element styles
-.storage__button{
-    margin: 10px 0;
+.storage__header{
+    font-size: 2.2rem;
+    padding: 10px 0;
 }
 .storage__image{
     max-height: 150px;
     margin: 5px;
 }
-.storage__text{
+.storage__content-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.storage__content-text{
     width: 40%;
     padding: 15px;
     text-align: justify;
 }
 // modifier styles
-.header_gray{
+.storage__header_color_gray {
     color: gray;
 }
