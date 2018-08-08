@@ -32,6 +32,10 @@ body {
   box-shadow: 0 0 5px gray;
 }
 
+.header {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .storage__content {
   display: flex;
   justify-content: space-around;
