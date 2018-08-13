@@ -26,7 +26,7 @@ function setStorageStyles(){
     document.getElementById('local-font').value = currnetFont;
     document.getElementById('local-brand').value = currnetBrand;
 
-    localText.style.fontFamily = currnetFont;
+    localText.className = getClassName(currnetFont);
     localImage.setAttribute('src', currnetBrand);
 }
 
@@ -79,9 +79,19 @@ function setCookieStyles() {
     document.getElementById('cookie-font').value = currnetFont;
     document.getElementById('cookie-brand').value = currnetBrand;
 
-    cookieText.style.fontFamily = currnetFont;
+    cookieText.className = getClassName(currnetFont);
     cookieImage.setAttribute('src', currnetBrand);
 }
 
 cookieFontSelect.addEventListener('change', populateCookieStorage);
 cookieBrandSelect.addEventListener('change', populateCookieStorage);
+
+function getClassName(classCode){
+    if (classCode === '0'){
+        return 'storage__content-text_style_serif';
+    } else if (classCode === '1'){
+        return 'storage__content-text_style_sans-serif';
+    } else if (classCode === '2'){
+        return 'storage__content-text_style_monospaced';
+    }
+}

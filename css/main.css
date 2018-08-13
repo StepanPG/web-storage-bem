@@ -32,8 +32,8 @@ body {
   box-shadow: 0 0 5px gray;
 }
 
-.header {
-  font-family: 'Courier New', Courier, monospace;
+.web-storage__storage {
+  margin: 5px auto;
 }
 
 .storage__content {
@@ -43,6 +43,7 @@ body {
 }
 
 .storage__header {
+  font-family: 'Courier New', Courier, monospace;
   font-size: 2.2rem;
   padding: 10px 0;
 }
@@ -66,4 +67,16 @@ body {
 
 .storage__header_color_gray {
   color: gray;
+}
+
+.storage__content-text_style_serif {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.storage__content-text_style_sans-serif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.storage__content-text_style_monospaced {
+  font-family: 'Courier New', Courier, monospace;
 }
